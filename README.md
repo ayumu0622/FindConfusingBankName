@@ -1,8 +1,9 @@
 # FindSimilarBankName Project
 <img width="260" alt="Screen Shot 2023-10-09 at 12 26 59 AM" src="https://github.com/ayumu0622/FindConfusingBankName/assets/67722808/9968e7ad-a8b2-4d89-880d-9b6a25e0f95d">
+
 ## Overview
 
-The "FindSimilarBankName" project processes a 2.5 million-row dataset using the efficient Polars library. It identifies and resolves cases where distinct banks share the same "rssdid" due to similar names, leveraging the Levenshtein distance algorithm for precise similarity detection.
+"FindSimilarBankName" addresses the challenge of different banks sharing the same "rssdid" in a 2.5 million-row dataset. Leveraging Polars, it identifies and resolves similar names, ensuring precise matching for users comparing bank data with resumes.
 
 ## Project Structure
 
