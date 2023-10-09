@@ -1,6 +1,7 @@
 # FindSimilarBankName Project
 <img width="260" alt="Screen Shot 2023-10-09 at 12 26 59 AM" src="https://github.com/ayumu0622/FindConfusingBankName/assets/67722808/9968e7ad-a8b2-4d89-880d-9b6a25e0f95d">
 
+
 ## Overview
 
 "FindSimilarBankName" addresses the challenge of different banks sharing the same "rssdid" in a 2.5 million-row dataset. Leveraging Polars, it identifies and resolves similar names, ensuring precise matching for users comparing bank data with resumes.
