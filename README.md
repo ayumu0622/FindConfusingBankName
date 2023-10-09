@@ -4,7 +4,7 @@
 
 ## Overview
 
-"FindSimilarBankName" addresses the challenge of different banks sharing the same "rssdid" in a 2.5 million-row dataset. Leveraging Polars, it identifies and resolves similar names, ensuring precise matching for users comparing bank data with resumes.
+"FindSimilarBankName" addresses the challenge of different banks having similar name in a 2.5 million-row dataset. Leveraging Polars, it identifies and resolves similar names, ensuring precise matching for users comparing bank data with resumes.
 
 ## Project Structure
 
