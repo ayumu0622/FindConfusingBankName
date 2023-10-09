@@ -61,8 +61,8 @@ class AssetClass:
     def main(self):
         self.df = self.read_csv()
         top_k_frame = self.find_topk(self.df)
-        self.output_file(top_k_frame, 'Deliverable1.csv')
+        self.output_file(top_k_frame, 'top_50_bank.csv')
         distinct, non_distinct = self.similarity(top_k_frame)
-        self.output_file(distinct, 'Deliverable2.csv')
-        self.output_file(non_distinct, 'Deliverable3.csv')
+        self.output_file(distinct, 'distinct_name.csv')
+        self.output_file(non_distinct, 'non_distinct_name.csv')
 
