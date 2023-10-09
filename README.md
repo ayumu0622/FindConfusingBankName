@@ -2,7 +2,7 @@
 
 ## Overview
 
-The "FindSimilarBankName" project processes a 2 million-row dataset using the efficient Polars library. It identifies and resolves cases where distinct banks share the same "rssdid" due to similar names, leveraging the Levenshtein distance algorithm for precise similarity detection.
+The "FindSimilarBankName" project processes a 2.5 million-row dataset using the efficient Polars library. It identifies and resolves cases where distinct banks share the same "rssdid" due to similar names, leveraging the Levenshtein distance algorithm for precise similarity detection.
 
 ## Project Structure
 
