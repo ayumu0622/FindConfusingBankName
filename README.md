@@ -18,3 +18,5 @@ of the entire sentence rather than differences in the sequence of individual wor
 Therefore, I used Levenshtein distance (https://en.wikipedia.org/wiki/Levenshtein_distance) which 
 is character based sentence similarity algorithm to see if there are similar bank name which might 
 cause spelling mistakes.
+
+##2431459
